@@ -13,10 +13,13 @@ This archive contains several folders:
 
 (1) code: source code for computing the sample nonparanormal covariance matrices and solving the pDNA model.
  
-(2) breast_cancer: a demo for testing our method using the ovarian cancer gene expression data. 
-    Run "Demo_Ovarian_Cancer.m" in folder "breast_cancer" to test the algorithm.
+(2) ovarian_cancer: a demo for testing our method using the ovarian cancer gene expression data. 
+    Run "Demo_Ovarian_Cancer.m" in folder "ovarian_cancer" to test the algorithm.
 
-(3) simulation: a demo for testing our method using the simulated data. Run "Demo_simulation.m" in 
+(3) glioblastoma: a demo for testing our method using the glioblastoma gene expression data. 
+    Run "Demo_Glioblastoma.m" in folder "glioblastoma" to test the algorithm.
+
+(4) simulation: a demo for testing our method using the simulated data. Run "Demo_simulation.m" in 
     folder "simulation" to test the algorithm
 
 Please do not hesitate to contact Dr. Xiao-Fei Zhang <zhangxf@mail.ccnu.edu.cn> to seek any clarifications 

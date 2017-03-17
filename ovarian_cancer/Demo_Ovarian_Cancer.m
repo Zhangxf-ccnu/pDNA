@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 			TEST FILE FOR pDNA using ovarian gene expression data                     %
+% 			TEST FILE FOR pDNA using ovarian cancer gene expression data                     %
 %  Refer to the paper: X. F. Zhang, L. Ou-Yang, and H yan (2016)
 %  Incorporating prior information into differential network analysis using nonparanormal graphical models  %
 % for further details on the pDNA model.                      %	
@@ -37,3 +37,4 @@ Degree = sum(W,2);
 % show the weighted differential network accoring to the degrees of nodes
 W = W(ID, ID);
 imagesc(W)
+Gene_sorted = OV_Exp.Gene(ID);

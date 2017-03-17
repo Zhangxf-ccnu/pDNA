@@ -17,7 +17,7 @@ n_1 = 200;
 n_2 = 200;
 m_pert = 4;
 rho_1 = 0.5;
-rho_2 = 0.9;
+rho_2 = 0.1;
 umin_sparse = 0.5;
 umax_sparse = 1;
 
